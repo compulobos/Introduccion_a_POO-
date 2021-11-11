@@ -5,9 +5,11 @@ public class aplicacionCalculadora {
 	public static void main(String[] args) {
 		//new aplicacionCalculadora().mostrarMenu();
 		Calculadora calculadora1 = new Calculadora();
+		calculadora1.resta(9,8);
 
-		int resultado = calculadora1.suma(8,10);
-		System.out.println(resultado);
+		System.out.println(calculadora1.resta(7,8));
+		//int resultado = calculadora1.suma(8,10);
+		//System.out.println(resultado);
 	}
 }
 
