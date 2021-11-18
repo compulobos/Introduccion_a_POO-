@@ -8,6 +8,15 @@ public class aplicacionCalculadora {
 		calculadora1.resta(9,8);
 
 		System.out.println(calculadora1.resta(7,8));
+
+		CalculadoraCientifica cc = new CalculadoraCientifica();
+		System.out.println(cc.get_color());
+
+		//-1
+		//rojo
+
+
+
 		//int resultado = calculadora1.suma(8,10);
 		//System.out.println(resultado);
 	}
